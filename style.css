@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
+
 }
+
 li{
     list-style: none;
     display: inline; /* alinha os textos do lado do outro*/
@@ -23,7 +26,7 @@ li{
     text-decoration: none;
 }
 .perfil{
-    background-color: #edeaea;
+    background-color: #EDEAEA;
     height: 579px;
     text-align: center;
 }
@@ -45,23 +48,27 @@ img{
 
 }
 .formacao {
-    background-color: #e5e5e5;
+    
     height: 500px;
+    margin-top: 21px;
+    max-width: 100%;
 }
 .container{
     margin-left: auto;
     margin-right: auto;
     margin-top: 86px;
-    max-width: 405px; /*largura máxima do meu conteúdo*/
+    max-width: 750px; /*largura máxima do meu conteúdo*/
     
-    
+
 
 }
 .artigo-formacao{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
     margin-bottom: 100px;
+    background-color:#edeaeade;
+    max-width: 750px;
+    
 }
 .titulo-secao{
     font-size: 24px;
@@ -75,6 +82,8 @@ img{
     font-size: 16px;
     color: #828282;
     font-weight: 700px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .link-formacao{
     color: #2f80ed;
@@ -106,7 +115,82 @@ img{
 }
 a{
     color: #ffffff;
-    margin: 20px;
+    margin: 5px; /*distancia entre os elemento e margem para a esquerda*/
+    text-decoration: none;
+    
+    
+}
+.projetos{
+    height: 500px;
+    background-color: white;
+}
+.artigo-projetos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750x; /*largura máxima do meu conteúdo*/
+    flex-direction: column;
+    background-color: #EDEAEA;
+    
+
+}
+.meus-projetos{
+    font-size: 24px;
+    color: #ff4dbc;
+    margin-bottom: 50px;
+    
+
+}
+.lista-projetos{
+    margin-left: 66px;
+    background-color: #ffffff;
+    
+    
+}
+h4{
+    font-size: 16px;
+    color: #661E4B;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    
+}
+    
+.p-node{
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.p-html{
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.segunda-descricao{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.descricao{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 53px;
+    
+}
+.container-artigo{
+    max-width: 500px;
+}
+.link-projeto{
+    color: #2f80ed;
+    font-size: 14px;
+    padding-right: 53px;
+    max-width: 500px;
+    
+    
+
+
+
     
     
 }
